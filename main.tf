@@ -3,7 +3,7 @@ region = "us-east-1"
 }
 
 resource "aws_instance" "one" {
-count = 5
+count = 4
 ami = "ami-000ec6c25978d5999"
 instance_type = "t2.micro"
 key_name = "sachin"
